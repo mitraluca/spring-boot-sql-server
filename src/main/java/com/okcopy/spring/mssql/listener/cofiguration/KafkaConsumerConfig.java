@@ -21,10 +21,10 @@ public class KafkaConsumerConfig {
         Map<String, Object> props = new HashMap<>();
         props.put(
                 ConsumerConfig.BOOTSTRAP_SERVERS_CONFIG,
-                "the Address of server kafka");
+                "the Address of server kafka");//TODO: write the URL composed of ipAdress:port
         props.put(
                 ConsumerConfig.GROUP_ID_CONFIG,
-                "the group id of messages");
+                "the group id of messages");//TODO: write the identifier of group of consumers (In this case identify just this microservice)
         props.put(
                 ConsumerConfig.KEY_DESERIALIZER_CLASS_CONFIG,
                 StringDeserializer.class);
