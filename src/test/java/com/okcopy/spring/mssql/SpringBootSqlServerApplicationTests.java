@@ -1,4 +1,4 @@
-package com.bezkoder.spring.mssql;
+package com.okcopy.spring.mssql;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

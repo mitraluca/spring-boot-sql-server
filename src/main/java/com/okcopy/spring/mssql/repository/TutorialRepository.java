@@ -1,10 +1,10 @@
-package com.bezkoder.spring.mssql.repository;
+package com.okcopy.spring.mssql.repository;
 
 import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.bezkoder.spring.mssql.model.Tutorial;
+import com.okcopy.spring.mssql.model.Tutorial;
 
 public interface TutorialRepository extends JpaRepository<Tutorial, Long> {
   List<Tutorial> findByPublished(boolean published);
